@@ -1,0 +1,193 @@
+<htm>
+
+<head>
+<title>Front End Technologies</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- tabs -->
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+<!-- / tabs -->
+<script type="text/javascript" src="layout/scripts/jquery-photostack.js"></script>
+<!-- coinslider -->
+<script type="text/javascript" src="layout/scripts/jquery-coin-slider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#portfolioslider').coinslider({
+        width: 480,
+        height: 280,
+        navigation: false,
+        links: false,
+        hoverPause: true
+    });
+});
+</script>
+<!-- / coinslider -->
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">Front End Technologies </a></h1>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul id="topnav">
+      <li class="active"><a href="index.html">Home</a></li>
+
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">SERVICES</a>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">SIGN UP</a></li>
+      <li class="last"><a href="#">VEDIOS</a></li>
+    </ul>
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="layout/images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="featured_slide"> 
+    <!-- ####################################################################################################### -->
+    <div id="slider">
+      <ul id="categories">
+        <li class="category">
+          <h2>ANGULAR</h2>
+          <a href="#"><img src="images/demo/a1.png" alt="" /></a>
+          <p>AngularJS is a JavaScript-based open-source front-end web application framework first released in 2010. It is maintained by Google and is designed to make it easier to build dynamic, single-page web applications. AngularJS provides a modular structure for developing web applications, and extends HTML with additional syntax to allow developers to create dynamic and reusable UI components.
+            <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>HTML</HTML></h2>
+          <a href="#"><img src="images/demo/h1.jpg" alt="" /></a>
+          <p>HTML stands for Hypertext Markup Language. It is a standard markup language used to create web pages and other information that can be displayed in a web browser. HTML uses a set of tags and attributes to describe the structure and content of a web page.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>JAVA SCRIPT</SCRIPT></h2>
+          <a href="#"><img src="images/demo/js1.jpg" alt="" /></a>
+          <p>JavaScript is a high-level, interpreted programming language that is commonly used to add interactivity and other dynamic features to websites. It was created in 1995 and is primarily used for client-side scripting, where it is executed directly by the web browser, allowing for the creation of responsive and dynamic web pages without the need for a round-trip to the server.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>JQUERY</h2>
+          <a href="#"><img src="images/demo/j1.png" alt="" /></a>
+          <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>BOOTSTRAP</h2>
+          <a href="#"><img src="images/demo/b1.jpg" alt="" /></a>
+          <p>Bootstrap is a free front-end framework for faster and easier web development. It includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins. Bootstrap also gives you the ability to easily create responsive designs.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>CASCADING STYLE SHEET</h2>
+          <a href="#"><img src="images/demo/c1.jpg" alt="" /></a>
+          <p>Cascading Style Sheets (CSS) is a stylesheet language used for describing the presentation of a document written in HTML or XML (including XML dialects such as SVG or XHTML). CSS provides a simple way to control the visual appearance of a web page, including colors, fonts, layout, and other design elements. CSS is used to separate the presentation of a document from its content, making it easier to maintain and update the web page. </p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>REACT JS</h2>
+          <a href="#"><img src="images/demo/r1.png" alt="" /></a>
+          <p>React is a JavaScript library for building user interfaces. It was developed by Facebook and is now maintained as an open-source project. React is used for building single-page applications and mobile applications, as well as for creating reusable UI components.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Vue JS</h2>
+          <a href="#"><img src="images/demo/v1.png" alt="" /></a>
+          <p>Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It was created by Evan You in 2014 and has since become one of the most popular front-end frameworks in the web development industry.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+      </ul>
+      <a class="prev disabled"></a> <a class="next disabled"></a>
+      <div style="clear:both"></div>
+    </div>
+    <!-- ####################################################################################################### --> 
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="footbox">
+      <h2>About Us</h2>
+      <p>Lornunc tincidunt nec nequat risus convallisis elit vestiquat justo et volutpat. Urnanec monterdum turistibus semportis non vivamus justo pellus ac integestiquat eros. Turet cursuspend ero nulla dapienteger quisque nullamcorper lorem in ut pellus.</p>
+      <p>Atmaecenas nec non nam nullamcorper magna id id nisl ac in. Sedfauctortis fuscetus estibus gravida id dui curabitur commodo facilisi loborttitorttitor vitae.</p>
+    </div>
+    <div class="footbox">
+      <h2>Our Skillset</h2>
+      <ul>
+        <li><a href="#">Lorem ipsum dolor sit</a></li>
+        <li><a href="#">Amet consectetur</a></li>
+        <li><a href="#">Praesent vel sem id</a></li>
+        <li><a href="#">Curabitur hendrerit est</a></li>
+        <li><a href="#">Aliquam eget erat nec sapien</a></li>
+        <li><a href="#">Cras id augue nunc</a></li>
+        <li><a href="#">In nec justo non</a></li>
+        <li><a href="#">Vivamus mollis enim ut</a></li>
+        <li class="last"><a href="#">Sed a nulla urna</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Blog Links</h2>
+      <ul>
+        <li><a href="#">Lorem ipsum dolor sit</a></li>
+        <li><a href="#">Amet consectetur</a></li>
+        <li><a href="#">Praesent vel sem id</a></li>
+        <li><a href="#">Curabitur hendrerit est</a></li>
+        <li><a href="#">Aliquam eget erat nec sapien</a></li>
+        <li><a href="#">Cras id augue nunc</a></li>
+        <li><a href="#">In nec justo non</a></li>
+        <li><a href="#">Vivamus mollis enim ut</a></li>
+        <li class="last"><a href="#">Sed a nulla urna</a></li>
+      </ul>
+    </div>
+    <div class="footbox last">
+      <h2>Keep in Touch</h2>
+      <ul>
+        <li><a href="#">Check out our Facebook page</a></li>
+        <li><a href="#">Get the latest Tweets</a></li>
+        <li><a href="#">Grab our latest Deviants</a></li>
+        <li><a href="#">View our LinkedIn profile</a></li>
+      </ul>
+      <h2>Contact Us</h2>
+      <ul>
+        <li><strong class="title">Tel:</strong><br />
+          xxxxx xxxxxxxxxx</li>
+        <li><strong class="title">Email:</strong><br />
+          <a href="#">contact@mydomain.com</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </div>
+</div>
+</body>
+</html>
